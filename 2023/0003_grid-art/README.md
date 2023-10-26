@@ -6,7 +6,7 @@
 
 ## 動画
 
-* [Threads]https://www.threads.net/@usamik26/post/Cy3gYl-xLdo)
+* [Threads](https://www.threads.net/@usamik26/post/Cy3gYl-xLdo)
 
 ## 実行方法
 
