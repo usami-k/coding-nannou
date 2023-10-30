@@ -65,15 +65,11 @@ fn view(app: &App, model: &Model, frame: Frame) {
     for row in 0..10 {
         for col in 0..10 {
             let direction = model.grid[row][col] % 2;
+            let left = -200.0 + row as f32 * 40.0;
+            let bottom = -200.0 + col as f32 * 40.0;
             draw.line()
-                .start(pt2(
-                    -200.0 + row as f32 * 40.0,
-                    -200.0 + col as f32 * 40.0 + 40.0 - 40.0 * direction as f32,
-                ))
-                .end(pt2(
-                    -200.0 + row as f32 * 40.0 + 40.0,
-                    -200.0 + col as f32 * 40.0 + 40.0 * direction as f32,
-                ))
+                .start(pt2(left, bottom + 40.0 - 40.0 * direction as f32))
+                .end(pt2(left + 40.0, bottom + 40.0 * direction as f32))
                 .color(STEELBLUE)
                 .weight(10.0)
                 .caps(LineCap::Round);
