@@ -8,10 +8,9 @@ fn main() {
 struct Model {
     _window: window::Id,
     start_animation: bool,
+    angle: f32,
     start: Point2,
     end: Point2,
-    angle: f32,
-    radius: f32,
 }
 
 fn model(app: &App) -> Model {
@@ -25,10 +24,9 @@ fn model(app: &App) -> Model {
     Model {
         _window,
         start_animation: false,
+        angle: 0.0,
         start: pt2(0.0, 0.0),
         end: pt2(0.0, 0.0),
-        angle: 0.0,
-        radius: 0.0,
     }
 }
 
@@ -45,8 +43,8 @@ fn update(_app: &App, model: &mut Model, _update: Update) {
 
     model.start = model.end;
     model.angle += PI / 30.0;
-    model.radius += 1.1.pow(model.angle) as f32 / 60.0;
-    model.end = pt2(model.angle.cos(), model.angle.sin()) * model.radius;
+    let radius = 1.1.pow(model.angle) as f32;
+    model.end = pt2(model.angle.cos(), model.angle.sin()) * radius;
 }
 
 fn view(app: &App, model: &Model, frame: Frame) {
