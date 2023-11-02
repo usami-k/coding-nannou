@@ -8,7 +8,7 @@
 
 ## 動画
 
-* [Threads](https://www.threads.net/@usamik26/post/CzJiWN8xjGn)
+* [Threads](https://www.threads.net/@usamik26/post/CzJlQC5Rsau)
 
 ## 実行方法
 
