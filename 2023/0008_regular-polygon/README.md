@@ -4,7 +4,7 @@
 
 ## 動画
 
-* [Threads](https://www.threads.net/@usamik26)
+* [Threads](https://www.threads.net/@usamik26/post/C0bylKpRHWg)
 
 ## 実行方法
 
