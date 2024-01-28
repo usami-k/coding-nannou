@@ -2,11 +2,11 @@
 
 正多角形を再帰的に描画します。
 
-[2023/0007_spiral-square](../../2023/0007_spiral-square) や [2024/0009_spiral-square](./0009_spiral-triangle) のバリエーションです。
+[2023/0007_spiral-square](../../2023/0007_spiral-square) や [2024/0009_spiral-square](../0009_spiral-triangle) のバリエーションです。
 
 ## 動画
 
-* [Threads](https://www.threads.net/@usamik26)
+* [Threads](https://www.threads.net/@usamik26/post/C2o-m6pR_xJ)
 
 ## 実行方法
 
